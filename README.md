@@ -12,7 +12,7 @@ A sleek and responsive **React** application built with **Vite**, allowing users
 
 ## Live Demo
 
-_(will be updated in future)_
+[Movies List](https://movies-list-imamul.vercel.app/)
 
 ## Getting Started
 
