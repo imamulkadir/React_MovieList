@@ -1,12 +1,59 @@
-# React + Vite
+# React Movie List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive **React** application built with **Vite**, allowing users to explore movies, mark favorites, and persist preferences using local storage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse a list of movies (can be extended to fetch from APIs)
+- Add and remove movies from favorites
+- Favorites are saved across sessions using `localStorage`
+- Built with fast development experience via **Vite + React Fast Refresh**
+- ESLint included for clean and maintainable code
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+_(Add a deployment link here if you host the app — e.g., Netlify, Vercel, GitHub Pages)_
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later recommended)
+- npm or yarn
+
+### Setup
+
+```bash
+git clone https://github.com/imamulkadir/React_MovieList.git
+cd React_MovieList
+npm install
+npm run dev
+```
+
+Now open http://localhost:5173 in your browser to explore the app with live reload.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+### Project Structure
+
+```
+/
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # React components (MovieList, MovieCard, etc.)
+│   ├── context/            # Context and custom hooks (MovieContext, useMovieContext)
+│   ├── pages/              # Page-level components (e.g., Home.jsx)
+│   ├── App.jsx             # Application root
+│   └── main.jsx            # Entry point
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+Developed and maintained by: [Imamul Kadir](https://www.linkedin.com/in/imamulkadir)
