@@ -12,7 +12,7 @@ A sleek and responsive **React** application built with **Vite**, allowing users
 
 ## Live Demo
 
-_(Add a deployment link here if you host the app — e.g., Netlify, Vercel, GitHub Pages)_
+_(will be updated in future)_
 
 ## Getting Started
 
